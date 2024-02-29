@@ -1,0 +1,60 @@
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Pagina buena</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Redes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">aceptar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " aria-disabled="true">Fotos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <h2>{{ejemplo}}</h2>
+  
+  <div class="card" style="width: 20rem;">
+    <div class="card-body">
+      <h5 class="card-title"> {{card.title}}</h5>
+      <hr>
+      <img src="" width="300" height="300"  alt="...">
+      <b>Descripcion</b>
+      <p class="card-text">
+        {{card.descripcion}}
+      </p>
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+      Clikea aqui 
+      </button>
+    </div>
+  </div>
+
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Donde todo puede pasar</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Helado?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+          <button type="button" class="btn btn-primary">aceptar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
